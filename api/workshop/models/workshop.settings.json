@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workshops",
+  "info": {
+    "name": "Workshop",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    }
+  }
+}
